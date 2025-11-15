@@ -1049,3 +1049,41 @@ Retrieved 2025-11-15, License - CC BY-SA 4.0
 .card2-content::-webkit-scrollbar-thumb {
     background-color: #000000;
 }
+
+#start-container {
+    text-align: center;
+}
+
+#startBtn {
+    margin-top: 40vh;
+    padding: 18px 45px;
+    font-size: 22px;
+    color: #332a2a;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-image:
+      linear-gradient(0deg,
+        transparent 24%, rgb(71, 47, 47) 25%, rgba(255,255,255,1) 26%, transparent 27%,
+        transparent 74%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 76%, transparent 77%, transparent),
+      linear-gradient(90deg,
+        transparent 24%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 26%, transparent 27%,
+        transparent 74%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 76%, transparent 77%, transparent),
+      linear-gradient(135deg, #6a00ff, #ff0090);
+
+    background-size: 6px 6px, 6px 6px, cover;
+    background-blend-mode: overlay;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 0 18px rgba(255,255,255,0.2);
+}
+
+#startBtn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px rgba(255,255,255,0.35);
+}
+
+#startBtn:active {
+    transform: scale(0.97);
+}
